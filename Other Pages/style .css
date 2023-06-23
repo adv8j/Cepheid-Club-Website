@@ -1,0 +1,173 @@
+.o-title,.o-more, .intro2{
+    font-family: 'Rajdhani', sans-serif;
+    color: #bac7ce;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.biggy{
+    background-size: 100%;
+    background-position: bottom center;
+    background-image: url('https://spaceandbeyondbox.com/wp-content/uploads/2020/02/blog_hed-1.jpg');
+}
+.o-navbar{
+    /* background-color: rgb(9,1,20); */
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    height: 140px;
+    background: linear-gradient(rgb(9,1,20),transparent) !important;
+z-index: 100;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.rightones{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    align-items: center;
+    margin-right: 2%;
+    gap:30px ; 
+    font-size: 35px;
+}
+
+.rightones>a{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    transition: all 0.35s ease-in-out;
+
+}
+.rightones>a:hover{
+    color: #76797b;
+
+}
+section.o-intro{
+    position: relative;
+    height: 60vh;
+    
+    /* z-index: 1; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.o-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.o-about{
+    margin-left: 12%;
+    margin-bottom: 10px;
+    font-size: 4rem !important;
+    width: 30%;
+    height: fit-content;
+    font-weight: 1200;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.o-more{
+    font-weight: 800;
+    font-size: 25px;
+    color: rgb(233, 235, 236);
+}
+
+.intro2{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.jok{
+    padding: 15px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.jok>h1{
+    color: #002a41 !important;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.page2{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 transparent, 0 6px 20px 0 transparent;
+    transition: box-shadow 0.25s ease-in;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+
+
+footer{
+    color: white;
+    margin-top: 30px;
+    background-color: rgb(9,1,20);
+    height: 253px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+footer h1{
+    padding-top: 20px;
+    margin-bottom:30px;
+    text-align: center;
+}
+footer>*{
+    padding: 0px 80px;
+    flex-basis: 33.3%;
+}
+ul{
+    list-style: none;
+    line-height: 40px;
+}
+footer a{
+    color: white;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(191, 181, 181);
+}
+footer .social-media-handles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer .social-media-handles>*{
+    flex-basis: 50%;
+}
+footer .social-media-handles i:hover{
+    opacity: 0.5;
+}
+footer .social-media-handles i{
+    transition: all 0.3s ease-in-out;
+}
+#website-credits{
+    margin-top: 80px;
+}
